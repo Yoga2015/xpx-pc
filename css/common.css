@@ -1,0 +1,48 @@
+/* 各个网页 相同模块 的 重复样式 */
+
+/* 版心 */
+.wrapper {
+  margin: 0 auto;
+  width: 1240px;
+}
+
+
+/* shortcut 快捷导航  */
+.shortcut {
+  height: 52px;
+  background-color: #333;
+}
+
+.shortcut .wrapper {
+  height: 52px;
+  /* background-color: pink; */
+}
+
+.shortcut ul {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 52px;
+}
+
+.shortcut li a {
+  padding: 0 15px;
+  border-right: 1px solid #999;
+  font-size: 14px;
+  color: #fff;
+}
+
+.shortcut li .login,
+.shortcut li a:hover {
+  color: aquamarine;
+}
+
+.shortcut li:last-child a {
+  border-right: 0;
+}
+
+.shortcut li a .iconfont {
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+

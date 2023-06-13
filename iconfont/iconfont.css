@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1686648855655') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-back:before {
+  content: "\e697";
+}
+
+.icon-cart:before {
+  content: "\e698";
+}
+
+.icon-category:before {
+  content: "\e699";
+}
+
+.icon-close:before {
+  content: "\e69a";
+}
+
+.icon-comments:before {
+  content: "\e69b";
+}
+
+.icon-delete:before {
+  content: "\e69d";
+}
+
+.icon-edit:before {
+  content: "\e69e";
+}
+
+.icon-favorite:before {
+  content: "\e6a0";
+}
+
+.icon-less:before {
+  content: "\e6a5";
+}
+
+.icon-moreunfold:before {
+  content: "\e6a6";
+}
+
+.icon-more:before {
+  content: "\e6a7";
+}
+
+.icon-refresh:before {
+  content: "\e6aa";
+}
+
+.icon-search:before {
+  content: "\e6ac";
+}
+
+.icon-selected:before {
+  content: "\e6ad";
+}
+
+.icon-set:before {
+  content: "\e6ae";
+}
+
+.icon-success:before {
+  content: "\e6b1";
+}
+
+.icon-viewlist:before {
+  content: "\e6b5";
+}
+
+.icon-wrong:before {
+  content: "\e6b7";
+}
+
+.icon-account:before {
+  content: "\e6b8";
+}
+
+.icon-attachment:before {
+  content: "\e6c0";
+}
+
+.icon-browse:before {
+  content: "\e6e6";
+}
+
+.icon-history:before {
+  content: "\e6f3";
+}
+
+.icon-link:before {
+  content: "\e6f7";
+}
+
+.icon-gerenzhongxin:before {
+  content: "\e70b";
+}
+
+.icon-bad:before {
+  content: "\e716";
+}
+
+.icon-good:before {
+  content: "\e717";
+}
+
+.icon-skip:before {
+  content: "\e718";
+}
+
+.icon-mobilephone:before {
+  content: "\e72a";
+}
+
+.icon-favorites:before {
+  content: "\e7ce";
+}
+
