@@ -134,6 +134,7 @@
 .cart {
   position: relative;
   margin-top: 33px;
+  cursor: pointer;
 }
 
 .cart .iconfont {
@@ -144,7 +145,7 @@
   position: absolute;
   top: 1px;
   /* right 定位右对齐：如果文字多了，向左撑开，可能盖住其他的内容 */
-  right: 1px;
+  /* right: 1px; */
   /* left 定位左对齐 ：文字多了，向右撑开 */
   left: 15px;
   padding: 0 6px;
@@ -156,4 +157,139 @@
   color: #fffeee;
   line-height: 15px;
   font-style: normal;
+}
+
+
+/* footer 底部  */
+.footer {
+  height: 580px;
+  background-color: #333;
+}
+
+/* 服务 */
+.service {
+  padding: 60px 0;
+  height: 178px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.service ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.service li {
+  display: flex;
+  margin-right: 20px;
+  width: 190px;
+  height: 58px;
+  /* background-color: yellow; */
+}
+
+.service li h5 {
+  margin-right: 20px;
+  width: 58px;
+  height: 58px;
+  background-image: url(../images/sprites.png);
+}
+
+.service li p {
+  line-height: 58px;
+  font-size: 28px;
+  color: #ebebeb;
+}
+
+.service li:nth-child(2) h5 {
+  width: 58px;
+  height: 58px;
+  background-position: -64px 0px;
+}
+
+.service li:nth-child(3) h5 {
+  width: 58px;
+  height: 58px;
+  background-position: -130px 0px;
+}
+
+/* 帮助中心 */
+.help {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  height: 300px;
+  /* background-color: pink; */
+}
+
+.help .left {
+  display: flex;
+}
+
+.help .left dl {
+  margin-right: 84px;
+}
+
+/* 去掉 最后一个 dl 的 右外边距 */
+.help .left dl:last-child {
+  margin-right: 0;
+}
+
+/* left */
+.help .left dt {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.help .left dd {
+  margin-bottom: 10px;
+}
+
+.help .left dd a {
+  /* font-size: 16px; 基本样式已经定义了 */
+  color: #fff;
+}
+
+/* right */
+.help .right ul {
+  display: flex;
+  color: #fff;
+}
+
+.help .right ul li:first-child {
+  margin-right: 55px;
+}
+
+.help .right .pic {
+  margin-bottom: 10px;
+  width: 120px;
+  height: 120px;
+}
+
+.help .right .pic img {
+  width: 120px;
+  height: 120px;
+}
+
+.help .right li p {
+  text-align: center;
+}
+
+
+/* 版权 （剩下都给版权） */
+.copyright {
+  text-align: center;
+}
+
+.copyright p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.copyright p a {
+  margin: 0 10px;
+}
+
+.copyright p a {
+  color: #fff;
 }
