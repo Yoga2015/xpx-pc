@@ -46,3 +46,114 @@
 }
 
 
+/* header 头部 */
+.header {
+  display: flex;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  height: 88px;
+  /* background-color: pink; */
+}
+
+/* logo */
+.header .logo {
+  margin-right: 40px;
+  width: 200px;
+  height: 88px;
+}
+
+.logo a img {
+  display: block;
+  width: 200px;
+  height: 88px;
+  /* background-image: url(../images/logo.png); */
+}
+
+
+/* 导航 */
+.nav {
+  margin-top: 33px;
+  margin-right: 28px;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav ul li {
+  margin-right: 47px;
+}
+
+.nav li a {
+  padding-bottom: 10px;
+  /* background-color: yellow; */
+}
+
+.nav li a:hover {
+  border-bottom: 2px solid #27ba9b;
+  color: #27ba9b;
+}
+
+
+
+/* 搜索 */
+.seacrh {
+  display: flex;
+  margin-top: 33px;
+  margin-right: 45px;
+  width: 170px;
+  height: 34px;
+  border-bottom: 2px solid #f4f4f4;
+}
+
+/* iconfont */
+.seacrh .icon-search {
+  margin-right: 8px;
+  width: 18px;
+  color: #ccc;
+}
+
+.seacrh input {
+  /* 浏览器优先生效 input 标签的默认宽度，所以 flex: 1; 不生效 */
+  /* 解决办法：重置 input 默认宽度 width: 0; */
+  flex: 1;
+  width: 0;
+  border: 0;
+  color: #ccc;
+  /* 去掉 表单控件 的焦点框 */
+  outline: none;
+}
+
+.seacrh input::placeholder {
+  font-size: 16px;
+  color: #ccc;
+}
+
+
+/* 购物车 */
+.cart {
+  position: relative;
+  margin-top: 33px;
+}
+
+.cart .iconfont {
+  font-size: 24px;
+}
+
+.cart i {
+  position: absolute;
+  top: 1px;
+  /* right 定位右对齐：如果文字多了，向左撑开，可能盖住其他的内容 */
+  right: 1px;
+  /* left 定位左对齐 ：文字多了，向右撑开 */
+  left: 15px;
+  padding: 0 6px;
+  /* width: 20px; 后续 i标签 中的数字会变 ，所以就别给宽度了 */
+  height: 15px;
+  background-color: #e26237;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fffeee;
+  line-height: 15px;
+  font-style: normal;
+}
