@@ -160,6 +160,109 @@
 }
 
 
+
+
+/* 新鲜好物 goods区域 */
+
+/* 标题 -- 公共样式 */
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  height: 42px;
+  /* background-color: pink; */
+}
+
+.title .left {
+  display: flex;
+}
+
+.title .left h3 {
+  margin-right: 35px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+/* 父级 设置 弹性布局 后 ，子级想 侧轴方向对齐 align-self */
+.title .left p {
+  align-self: flex-end;
+  color: #a1a1a1;
+}
+
+/* 查看全部，用 div 的原因 是为了应付 将来东西多时 */
+.title .right .more {
+  line-height: 42px;
+  color: #a1a1a1;
+}
+
+.title .right .more .iconfont {
+  margin-left: 3px;
+  vertical-align: middle;
+}
+
+
+
+/* 好物内容 -- 公共样式 */
+.bd ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bd li {
+  width: 304px;
+  height: 404px;
+  background-color: #EEF9F4;
+}
+
+.bd li .pic,
+.bd li .pic img {
+  width: 304px;
+  height: 304px;
+}
+
+.bd li .txt {
+  text-align: center;
+}
+
+.bd .txt h4 {
+  margin-top: 18px;
+  margin-bottom: 9px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* 新鲜好物 独有的，单独设置 */
+.good .bd p {
+  font-size: 18px;
+  color: #AA2113;
+}
+
+.good .bd p span {
+  margin-left: 3px;
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer 底部  */
 .footer {
   height: 580px;
